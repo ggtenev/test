@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "API_PORT=3000 NODE_ENV=dev TOKEN_KEY=cantGuessThisKey nodemon server.js"
+    "dev": " set API_PORT=3000 & set NODE_ENV=dev & set TOKEN_KEY=cantGuessThisKey & nodemon server.js"
   },
   "repository": {
     "type": "git",
